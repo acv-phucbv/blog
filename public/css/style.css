@@ -1,0 +1,117 @@
+html, body, h1, h2, h3, h4, h5, h6, label {
+    font-family: "メイリオ", "ヒラギノ角ゴ", Helvetica, Arial, sans-serif;
+}
+.w50{
+  width: 50px !important;
+}
+.w90{
+  width: 70px !important;
+}
+.control-label .required, .form-group .required {
+    color: #e02222;
+    font-size: 12px;
+    padding-left: 2px;
+}
+/* Tabbable line customize */
+.tabbable-line-customize {
+  width:100%;
+}
+.tabbable-line-customize>.nav-tabs.nav-justified>.active>a,  .tabbable-line-customize>.nav-tabs.nav-justified>.active>a:focus,  .tabbable-line-customize>.nav-tabs.nav-justified>.active>a:hover {
+  border: 0;
+}
+.tabbable-line-customize h4 {
+  margin: 0;
+  font-size: 16px;
+}
+/* Table list */
+.table.table-list {
+  border: 0!important;
+}
+.table.table-list>tbody>tr>td {
+  border: 0;
+  border-bottom: 1px solid #e7ecf1;
+  vertical-align: middle;
+}
+.table.table-list>tbody>tr:last-child>td {
+  border: 0;
+}
+/* ===== END Style Form input date =====*/
+.margin-top-26{
+  margin-top: 26px !important;
+}
+@media (max-width:768px) {
+  .margin-top-26{
+    margin-top: 5px !important;
+  }
+}
+.edit-form{
+  position: absolute;
+  top: 0;
+}
+
+.input-group input{
+  margin-right: 5px;
+}
+.vmiddle td{
+    vertical-align: middle!important;
+}
+.vmiddle td label{
+    margin: 0;
+}
+.vertical-middle{
+    vertical-align: middle!important;
+}
+.input-group .input {
+    width: 35%;
+    margin-right: 10px;
+    height: 34px;
+    padding: 6px 10px;
+    text-align: center;
+}
+.input-group .input-iso:first-child {
+    width: 60px!important;
+}
+/* Tabbable line customize */
+.tabbable-line-customize {
+    width:100%;
+}
+.tabbable-line-customize>.nav-tabs.nav-justified>.active>a,  .tabbable-line-customize>.nav-tabs.nav-justified>.active>a:focus,  .tabbable-line-customize>.nav-tabs.nav-justified>.active>a:hover {
+    border: 0;
+}
+.tabbable-line-customize h4 {
+    margin: 0;
+    font-size: 16px;
+}
+/* Table list */
+.table.table-list {
+    border: 0!important;
+}
+.table.table-list>tbody>tr>td {
+    border: 0;
+    border-bottom: 1px solid #e7ecf1;
+    vertical-align: middle;
+}
+.table.table-list>tbody>tr:last-child>td {
+    border: 0;
+}
+/* ===== END Style Form input date =====*/
+.margin-top-26{
+  margin-top: 26px !important;
+}
+@media (max-width:768px) {
+  .margin-top-26{
+    margin-top: 5px !important;
+  }
+}
+/*pulsate expired date*/
+@-webkit-keyframes alertPulse {
+    0% {background-color: #a08209;}
+    50% {opacity: #F1C40F;}
+    100% {opacity: red;}
+}
+.alertPulse-css {
+    animation: alertPulse 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    background: #9A2727;
+}

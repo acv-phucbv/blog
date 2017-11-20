@@ -87,6 +87,7 @@ return [
     'unique'               => 'The :attribute has already been taken.',
     'uploaded'             => 'The :attribute failed to upload.',
     'url'                  => 'The :attribute format is invalid.',
+    'format_date'          => 'The :attribute is not a valid date.',
 
     /*
     |--------------------------------------------------------------------------
